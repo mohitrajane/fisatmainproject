@@ -47,8 +47,10 @@
 
 \def\@maketitle{%
   %\vskip 2em%
+\pagestyle{empty}
   \vspace{2cm}
   \begin{center}%
+
     {\LARGE \@title \par}%
     \vfill
 \vskip 1.5em%
@@ -66,16 +68,17 @@
       \end{tabular}\par}%
     \vskip 1em%
    % {\large \@date}%
-   \thispagestyle{empty}
+  \thispagestyle{empty}
   \par
   \vfill
+
   \includegraphics[scale=.15]{fisat}\\[.5cm]
-  \large \bfseries{FEDERAL INSTITUTE OF SCIENCE AND TECHNOLOGY (FISAT)}\\
-  \small \bfseries{ANGAMALY-683577}\\[.5cm]
-  \small {\textit{Affiliated to}}\\[.5cm]
-  \large \bfseries{MAHATMA GANDHI UNIVERSITY}\\
-  \small \bfseries{Kottayam-686560}\\
-  \end{center}
+  \large \bfseries{Federal Institute of Science And Technology (FISAT)$^{{\mbox{\textregistered}}}$}\\
+\small \bfseries{Angamaly, Ernakulam}\\[.5cm]
+\small {\textit{Affiliated to}}\\[.5cm]
+\large \bfseries{APJ Abdul Kalam Technological University}\\
+\small \bfseries{CET Campus, Thiruvananthapuram}\\
+\end{center}
   }
 
 
@@ -93,18 +96,16 @@ Mookkannoor(P.O), Angamaly-683577
 \textbf{CERTIFICATE}
 \end{center}
 \vspace{1.5cm}
- This is to certify that project report entitled ``\textbf{\stored@title}'' is a bonafide report of the project presented during VIII$^{th}$ semester by \textbf{\stored@author}, in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology (B.Tech) in Computer Science \& Engineering.\\[3cm]
+This is to certify that project report entitled ``\textbf{\stored@title}'' is a bonafide report of the project presented during VII$^{th}$ semester (CS451 - Seminar and Project Preliminary) by \textbf{\stored@author}, in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology (B.Tech) in Computer Science \& Engineering.\\[3cm]
 
 \hfill \textbf{Dr. Prasad J C}\\
-Staff in Charge \hfill Head of the Department
+Staff in Charge \hfill Project Guide \hfill Head of the Department
 
-
-\vspace{2cm}
-\begin{flushleft}
-\textbf{Place}:\\
-\textbf{Date}:
-\end{flushleft}
-
+\vspace{1cm}
+%\textbf{Place}:\\
+%\textbf{Date}:
+\vfill
+%External Examiner \hfill Internal Examiner
 }
 
 \pagestyle{fancy}
@@ -112,3 +113,4 @@ Staff in Charge \hfill Head of the Department
 \lhead{\stored@title}
 \lfoot{ Computer Science \& Engineering | FISAT}
 \rfoot{\thepage}
+\renewcommand{\footrulewidth}{0.4pt}
