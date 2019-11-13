@@ -54,7 +54,7 @@
     {\LARGE \@title \par}%
     \vfill
 \vskip 1.5em%
-\textit{A project report submitted in partial fulfillment of the requirements for\\[.2cm]
+\textit{A literature review report submitted in partial fulfilment of the requirements for\\[.2cm]
 	the award of the degree of}\\[1.5cm]
 	{\Large \bf \itshape{{Bachelor of Technology}}}\\[.5cm]
 \textit{in}\\[.5cm]
@@ -96,7 +96,7 @@ Mookkannoor(P.O), Angamaly-683577
 \textbf{CERTIFICATE}
 \end{center}
 \vspace{1.5cm}
-This is to certify that project report entitled ``\textbf{\stored@title}'' is a bonafide report of the project presented during VII$^{th}$ semester (CS451 - Seminar and Project Preliminary) by \textbf{\stored@author}, in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology (B.Tech) in Computer Science \& Engineering.\\[3cm]
+This is to certify that literature review report for the project entitled ``\textbf{\stored@title}'' is a bonafide report of the project presented during VII$^{th}$ semester (CS451 - Seminar and Project Preliminary) by \textbf{\stored@author}, in partial fulfilment of the requirements for the award of the degree of Bachelor of Technology (B.Tech) in Computer Science \& Engineering.\\[3cm]
 
 \hfill \textbf{Dr. Prasad J C}\\
 Staff in Charge \hfill Project Guide \hfill Head of the Department
