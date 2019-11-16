@@ -1,0 +1,16 @@
+[1]: @unknown{unknown,
+author = {Kuriyan, Nayana Mariya and James, Justine},
+year = {2018},
+month = {04},
+pages = {},
+title = {Prevalence of Learning Disability in India: A Need for Mental Health Awareness Programme},
+doi = {10.4103/0253-}
+}
+https://www.researchgate.net/publication/324277803_Prevalence_of_Learning_Disability_in_India_A_Need_for_Mental_Health_Awareness_Programme
+
+
+
+[2]: Liebel, S. W., Nelson J. M. (2017).  Auditory and visual workingmemory functioning in college students withattention-deficit/hyperactivity dsorder and/or learning disabilities.Archives of Clinical Neuropsychology, 1–12.  doi:  10.1093/arclin/acx014
+
+[3] :Orcos, L.; Jordán, C.; Magreñán, A.A. 3D visualization through the hologram for the learning of area and
+  volume concepts. Mathematics 2019, 7, 247
