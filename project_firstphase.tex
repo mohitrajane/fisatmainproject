@@ -14,7 +14,7 @@
 \renewcommand\abstractname{ABSTRACT}
 \begin{abstract}
 \vspace{5cm}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna mauris, sagittis sit amet aliquet ut, facilisis et nibh. Praesent turpis tortor, dignissim ut interdum eu, porttitor ut orci. Curabitur laoreet malesuada fermentum. In posuere, purus eu pulvinar luctus, eros urna tempor magna, eu tincidunt erat eros nec turpis. Vestibulum at semper lacus. Nullam tristique lacus vel nibh porta a vehicula tellus volutpat. Pellentesque cursus ullamcorper ante, ut eleifend nisl aliquam id. Nulla porta ornare fermentum. Aliquam id magna sed erat malesuada viverra. Donec non mauris eros, nec egestas ligula. Suspendisse eu tempor ligula. Aliquam egestas nulla vel augue iaculis iaculis nec in risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent malesuada fringilla sapien a faucibus.
+This paper is intended to analyze and discuss the developments made so far in the field of holography and holographic projection, it discusses the feasibility and the possibilities in the area of touchable holograms, which move according to gestures of a person. In this paper, first we will discuss some rudimentary matters about what a hologram is and a short description of how they are created. Then we will move on to how we can make a hologram move as per our hand gestures and provide haptic feedback. In this paper the focus is on the feasibility study of some methods and the analysis and consequences of these methods. We will see some challenges in the whole process and then some discussion about future scopes of this technology and where this technology can lead us.
 \end{abstract}
 
 
@@ -140,17 +140,39 @@ $$
 $$
 
 \chapter{Work Plan}
-
-Compiled languages arelanguages typically processed by compilers, though theoretically any language can be compiled or interpreted. The important ones are:
-\begin{itemize}
-\item Ada
-\item C
-\item C++
-\item Fortran
-\item Java
-\end{itemize}
-
-\section{Budget}
+Our work plan have different phases .
+ Our work will progress through these phases.
+ \begin{itemize}
+     \item Holographic projection
+     \item Ultrasonic phased array for tactile feedback.
+     \item Hand Gesture recognition
+ \end{itemize}
+ \subsection{Holographic Projection}
+    The first step of our work is to make holographic projection of our an input image.
+    There are different methods to achieve this.
+    \begin{itemize}
+        \item Thin Amplitude Hologram
+        \item Thin Phase Holograms
+        \item Volume Hologram
+        \item Reflection Hologram
+    \end{itemize}
+    The decision to choose a method depends upon the efficiency of the display.
+ \subsection{Tactile feedback}
+    In this phase, An array of ultrasonic sensors are used to provide tactile feedback.
+    Phased array creates adisturbance in the air that the user can feel whenthey pass their fingertips across it.
+    \begin{figure}[h!]
+        \begin{center}
+        \includegraphics[scale=.8]{images/img1.jpg}
+        \caption{Tactile Feedback}
+        \end{center}
+        \end{figure}
+ \subsection{Hand Gesture recognition}
+     For hand gesture recognition, Machine learning techniques are used.
+     Different hand sign are trained using a machine learning model.
+     A model is selected selected based on the accuracy of the model.
+     The live image of hand is captured using a camera and detected using machine learning.
+     Based on the sign, The image is classifed and the change is reflected real-time.
+ \section{Budget}
 
 
 \chapter{Conclusion}
@@ -168,8 +190,4 @@ Donald Ervin Knuth \cite{knuth} is a computer scientist and Professor Emeritus a
 
 
 \end{thebibliography}
-
-
-
-
 \end{document}
