@@ -24,10 +24,10 @@ This paper is intended to analyze and discuss the developments made so far in th
 \thispagestyle{plain}
 \begin{abstract}
 \vspace{5cm}
-Author Contribution  Goes Here
+I focused on the haptics feedback and reviewed the Ultraino paper. And also reserach about multi-phased ultrasonic array. I came to the conclusion that a special or honeycomb structure can provide maximum range and optimal frequency.
 \vspace{1cm}
 \begin{flushright}
-Student Name
+Mohit Rajan E
 \end{flushright}
 \end{abstract}
 
@@ -119,8 +119,11 @@ Actuated physical props can provide haptic feedback. It leads to a sense of real
 The haptic feedback was achieved with a semi-spherical array, which was build using transducers and 3d printed base. This design provides focal point at 2cm from the base.
 An animation with 100 periods with the array on and 100 periods with  the  array  off is defined . This generated a focal point at 200Hz. This frequency is known to be more sensitive to mechanoreceptors in our skins. The focal point can be created at different positions to electronically  change  where  the  tactile  sensation  is  applied.
 \chapter{Design}
-
-implement
+\subsection{\small Ultraino: An Open Phased-Array System for Narrowband Airborne Ultrasound Transmission}
+A phased array using narrow-band ultrasonic(40Khz) transducers is created. The system hardware consists of a driver board capable of reading  the  amplitude  and  phases  produced  by  the  software and then generating half-square wave driving signals of up to 17 Vpp and $\pi /5$ phase resolution for 64 individual channels.
+The  software allows users to define array geometries  and  then  visualize  the  resulting  acoustic  fields.The  software  can  calculate  the  phase  and  amplitudes  of  the transducers required for the  chosen  beam forming operations.\newline
+The array   consists  of  setting  the  position  and  orientation  of  the transducers.
+First,  the  aperture  of  the  radiating  pistons,  the frequency,  and  the  output  amplitude  constant  are  set  for simulating  the  generated  acoustic  field. Once  imported,  the  transducers  can  be  moved,  rotated,  or scaled by the user in real time.
 \section{Proposal}
 The proposed system consist of three sub-systems
 \begin{itemize}
@@ -141,12 +144,28 @@ The hand gesture is process using Google  MediaPipe library.
 
 \chapter{Work Plan}
     \begin{figure}[h!]
-        \begin{center}
         \includegraphics[scale=.6]{images/work_plan.png}
         \caption{Work Plan}
-        \end{center}
         \end{figure}
  \section{Budget}
+ \begin{center}
+    \renewcommand{\arraystretch}{1.9}
+    \begin{tabular}{ |c|c|c|c| }
+    \hline
+    Item & Price & Quantity & Total \\
+    \hline
+    Ultrasonic sensor & 350  & 100 & 3500 \\
+    LCD display & 20000 & 1 & 20000 \\
+    Transparent sheet & 200 & 4 & 800 \\
+    Frame & 5000 & 1 & 5000 \\
+    Micro-controllers + electronics & 1000 & 1 & 1000 \\
+    LiDar + camera & 3000 & 1 & 3000 \\
+    \hline
+    \hline
+    \textbf{Total:} &  & & 33,300\\
+    \hline
+    \end{tabular}
+ \end{center}
 \chapter{Conclusion}
 
 \par The device discussed here is system with a hologram display which can provide haptic feedback.The system will consist of an ultrasonic array to provide the feedback. While the use of camera and Machine Learning to track and read hand gestures.
